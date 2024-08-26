@@ -78,6 +78,8 @@ target = 6
 
 solution = Solution()
 result = solution.twoSum(numbers, target)
+
+
 # Write the output to the output.txt file
 with open('output.txt', 'w') as file:
     file.write(f"The sum of the numbers is: {result}")
